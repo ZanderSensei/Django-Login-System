@@ -31,6 +31,3 @@ Clone the repository.
 Open the HTML files in a web browser to interact with the authentication system.
 Customize the system as needed for your Django project.
 
-#Additional Information
-The project uses a Django server for backend functionality, and CSS styles are defined in the 'new.css' file.
-Make sure to include the necessary dependencies and ensure an active internet connection for external font loading.
