@@ -7,17 +7,22 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Sign In</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Font Awesome CSS -->
         {% load static %}
         <link rel="stylesheet" href="{% static 'new.css'%}">
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
     </head>
     <body>
 
-      <h3>SignUp</h3>
+      <i class="fa-brands fa-python fa-2xl" style="color: #000000;"></i>
+        <br>
+        <br>
+
+      <h3>SignIn</h3>
+      <br>
 
       <form action="/signin" method="post">
         {%csrf_token%}
